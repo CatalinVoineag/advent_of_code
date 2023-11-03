@@ -8,7 +8,7 @@ class Main
       array << line.to_i
     end
 
-    puts array.slice_before(0).map(&:sum).max
+    puts array.slice_before(0).map(&:sum).sort.last(3).sum
   end
 end
 
