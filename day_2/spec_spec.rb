@@ -5,7 +5,7 @@ RSpec.describe Main do
     it "returns expected response" do
       main = Main.new("test.txt")
 
-      expect{ main.run }.to output("15\n").to_stdout
+      expect{ main.run }.to output("12\n").to_stdout
     end
   end
 end
